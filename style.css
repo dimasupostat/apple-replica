@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+}
+nav {
+  position: sticky;
+  backdrop-filter: blur(100px);
+  top: 0;
+  background-color: #f5f5f8b1;
+  padding: 12px;
+  z-index: 1;
+}
+ul.menu {
+  list-style-type: none;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 12px;
+  line-height: 12px;
+}
+li a {
+  text-decoration: none;
+  color: #000;
+}
+li:first-child,
+li:last-child,
+li:nth-last-child(2) {
+  font-size: 20px;
+}
+
+/***********************************/
+/**********  Backgrounds  **********/
+/***********************************/
+section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+.iphone-pro {
+  background-image: url(/images/iphone-pro.jpg);
+}
+.iphone {
+  background-image: url(/images/iphone.jpg);
+  color: #000;
+}
+.ipad {
+  background-image: url(/images/ipad.jpg);
+}
+.row1 .col1 {
+  background-image: url(/images/wwdc24.jpg);
+}
+.row1 .col2 {
+  background-image: url(/images/watch.jpg);
+}
+
+.row2 .col2 {
+  background-image: url(/images/college.jpg);
+}
+.row3 .col1 {
+  background-image: url(/images/vision.jpg);
+}
+.row3 .col2 {
+  background-image: url(/images/card.jpg);
+}
+.row1 .col1 {
+  background-image: url(/images/wwdc24.jpg);
+}
+.row1 .col2 {
+  background-image: url(/images/watch.jpg);
+}
+.row2 .col1 {
+  background-image: url(/images/music.png);
+  background-size: 45%;
+  background-color: #000;
+  background-position: top 30% center;
+}
+.row2 .col2 {
+  background-image: url(/images/college.jpg);
+}
+.row3 .col1 {
+  background-image: url(/images/vision.jpg);
+}
+.row3 .col2 {
+  background-image: url(/images/card.jpg);
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+}
+
+/***********************************/
+/************   TEXT   *************/
+/***********************************/
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  padding-top: 50px;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.col-title {
+  font-size: 36px;
+  font-weight: 500;
+}
+.description {
+  font-size: 20px;
+  font-weight: 300;
+}
+/**************************************/
+/************   BUTTONS   *************/
+/**************************************/
+
+.btn {
+  display: inline-block;
+  padding: 11px 21px;
+  background-color: #0077ed;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 20px;
+  border: none;
+  text-decoration: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.main-btn {
+  color: #fff;
+  margin-right: 15px;
+  line-height: 20px;
+  font-weight: 200;
+}
+.second-btn {
+  background-color: #0056b3;
+  background-color: transparent;
+  color: #0056b3;
+  border: solid #0056b3;
+}
+.main-btn:hover {
+  background-color: #0076ede6;
+}
+.second-btn:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/**********************************************/
+/*************   grid spacing   ***************/
+/**********************************************/
+.row .col2 .content {
+  position: relative;
+  top: 10%;
+}
+
+.row .col1 .content,
+.row2 .col2 .content {
+  position: relative;
+  top: 70%;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  color: #fff;
+  text-align: center;
+  height: auto;
+}
+.col1,
+.col2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  margin: 5px;
+}
+
+.row3 p,
+.row3 .col-title {
+  color: #000;
+}
+
+footer {
+  margin: 0 25%;
+}
+hr {
+  font-weight: 100;
+  color: gray;
+}
+
+.footer {
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 0;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.56);
+}
+
+.fm {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.56);
+  font-weight: 400;
+  line-height: 16px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
