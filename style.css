@@ -103,10 +103,9 @@ section {
 /***********************************/
 /************   TEXT   *************/
 /***********************************/
-h1 {
+.title {
   font-size: 50px;
   font-weight: 500;
-  padding-top: 50px;
 }
 h2 {
   font-size: 32px;
@@ -120,6 +119,7 @@ h2 {
 .description {
   font-size: 20px;
   font-weight: 300;
+  margin: 10px 0;
 }
 /**************************************/
 /************   BUTTONS   *************/
@@ -134,7 +134,7 @@ h2 {
   border-radius: 20px;
   border: none;
   text-decoration: none;
-  margin-top: 20px;
+
   cursor: pointer;
 }
 .main-btn {
@@ -155,6 +155,16 @@ h2 {
 .second-btn:hover {
   background-color: #0056b3;
   color: #fff;
+}
+.grid .btn {
+    margin: 10px 0;
+}
+
+.container {
+    padding-top: 50px;
+}
+.about {
+    margin: 10px 0 15px 0;
 }
 
 /**********************************************/
