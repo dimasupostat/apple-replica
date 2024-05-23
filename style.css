@@ -48,51 +48,51 @@ section {
   text-align: center;
 }
 .iphone-pro {
-  background-image: url(/images/iphone-pro.jpg);
+  background-image: url(images/iphone-pro.jpg);
 }
 .iphone {
-  background-image: url(/images/iphone.jpg);
+  background-image: url(images/iphone.jpg);
   color: #000;
 }
 .ipad {
-  background-image: url(/images/ipad.jpg);
+  background-image: url(images/ipad.jpg);
 }
 .row1 .col1 {
-  background-image: url(/images/wwdc24.jpg);
+  background-image: url(images/wwdc24.jpg);
 }
 .row1 .col2 {
-  background-image: url(/images/watch.jpg);
+  background-image: url(images/watch.jpg);
 }
 
 .row2 .col2 {
-  background-image: url(/images/college.jpg);
+  background-image: url(images/college.jpg);
 }
 .row3 .col1 {
-  background-image: url(/images/vision.jpg);
+  background-image: urlimages/vision.jpg);
 }
 .row3 .col2 {
-  background-image: url(/images/card.jpg);
+  background-image: url(images/card.jpg);
 }
 .row1 .col1 {
-  background-image: url(/images/wwdc24.jpg);
+  background-image: url(images/wwdc24.jpg);
 }
 .row1 .col2 {
-  background-image: url(/images/watch.jpg);
+  background-image: url(images/watch.jpg);
 }
 .row2 .col1 {
-  background-image: url(/images/music.png);
+  background-image: url(images/music.png);
   background-size: 45%;
   background-color: #000;
   background-position: top 30% center;
 }
 .row2 .col2 {
-  background-image: url(/images/college.jpg);
+  background-image: url(images/college.jpg);
 }
 .row3 .col1 {
-  background-image: url(/images/vision.jpg);
+  background-image: url(images/vision.jpg);
 }
 .row3 .col2 {
-  background-image: url(/images/card.jpg);
+  background-image: url(images/card.jpg);
 }
 .row {
   display: flex;
